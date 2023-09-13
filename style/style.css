@@ -1,0 +1,51 @@
+/*  global style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+:root{
+--main-color:#0075ff;
+--main-bg-color:#146379;
+--main-padding:30px;
+
+}
+.main-heading{
+    letter-spacing: 1.9px ;
+    font-weight: 100;
+}
+
+/*  end global style */
+/* start styling nav */
+.nav-link:hover{
+color: var(--main-color) !important;
+}
+/* end styling nav */
+/*  landing */
+#background{
+   height:1000px;
+   position: relative;
+   overflow: hidden;
+}
+.landing{
+   background:var(--main-bg-color) !important;
+    padding-left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0 , -50%);
+    line-height: 1.9;
+}
+
+/*  landing */
+/*   services */
+.imges{
+ 
+    background-image:url('../imges/OIP.jpg') ;
+   width: 100%;
+    background-size: cover;
+}
+
+/*   services */
