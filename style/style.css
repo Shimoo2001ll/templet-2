@@ -65,6 +65,7 @@ color: var(--main-color) !important;
 }
 .pro .explan{
     transition: var(--main-transition);
+    height: 30%;
 
 }
 .pro:hover .explan{
