@@ -70,4 +70,15 @@ color: var(--main-color) !important;
 .pro:hover .explan{
     display: block;
 }
+.media{
+    
+}
 /*  portofilio */
+/* about */
+.item li:hover{
+background-color: var(--main-color);
+color: whitesmoke;
+cursor: pointer;
+margin: 0 5px;
+}
+/* about */
