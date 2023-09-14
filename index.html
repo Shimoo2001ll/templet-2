@@ -53,8 +53,8 @@
     </div>
     <!--  end nav -->
     <!--  start landing -->
-    <div id="home" class="background mb-3 mb-sm-1">
-      <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel">
+    <div id="home" class="background mb-3 mb-sm-1 " style="height: 800px;">
+      <div id="carouselExampleIndicators" class="carousel slide w-100" data-bs-ride="carousel" >
         <div class="carousel-indicators">
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1">
           </li>
@@ -62,25 +62,33 @@
             aria-label="Slide 2"></li>
           <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></li>
         </div>
-        <div class="carousel-inner w-100 h-100">
+        <div class="carousel-inner w-100 h-50">
+          <div class="carousel-item ">
+            <img src="imges/slid1.jpg" class="d-block h-25" width="100%" height="400px" alt="background".
+              title="background" />
+          </div>
           <div class="carousel-item active">
-            <img src="imges/bg.jpg" class="d-block h-25" width="100%" height="25%" alt="background"
+            <img src="imges/bg.jpg" class="d-block h-25" width="100%" height="400px" alt="background".
+              title="background" />
+          </div>
+          <div class="carousel-item ">
+            <img src="imges/slid2.jpg" class="d-block h-25" width="100%" height="400px" alt="background".
               title="background" />
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-prev h-100 text-center" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
         </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        <button class="carousel-control-next h-100 text-center" type="button" data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
       </div>
       <div
-        class="landing w-50 h-25 text-light text-capitalize p-4 rounded d-none d-lg-block d-md-block overflow-hidden">
+        class="landing w-50 h-25 text-light text-capitalize text-center p-5 rounded d-none d-lg-block d-md-block overflow-hidden">
         <h4 class="text-capitalize w-100">Hello world</h4>
         <p class="w-100 h-100">
           We Are Kasper We Make Art<br /><br />
@@ -105,12 +113,12 @@
             </span>
           </div>
         </div>
-        <div class="contact row p-5 mb-5 mt-2">
+        <div class="contact row me-0 ms-0 pt-5 pb-5 mb-5 mt-2">
           <div class="serv col-11 col-lg-6 col-sm-11 col-md-6 col-xl-6 d-lg-flex d-md-flex">
             <div class="text-center p-3">
-              <i class="fa-solid fa-desktop me-5 fs-1 p-3 m-3"></i>
+              <i class="fa-solid fa-desktop me-5 fs-1 p-1 m-3"></i>
             </div>
-            <div>
+            <div class="text-sm-center text-center text-lg-start text-xl-start text-md-start">
               <h5 class="text-info">Vorem amet intuitive</h5>
               <p class="text-muted">
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at
@@ -121,9 +129,9 @@
           </div>
           <div class="serv col-11 col-lg-6 col-sm-11 col-md-6 col-xl-6 d-lg-flex d-md-flex">
             <div class="text-center p-3">
-              <i class="fa-solid fa-pencil-ruler me-5 fs-1 p-3 m-3"></i>
+              <i class="fa-solid fa-pencil-ruler me-5 fs-1 p-1 m-3"></i>
             </div>
-            <div>
+            <div class="text-sm-center text-center text-lg-start text-xl-start text-md-start">
               <h5 class="text-info">Vorem amet intuitive</h5>
               <p class="text-muted">
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at
@@ -135,9 +143,9 @@
 
           <div class="serv col-11 col-lg-6 col-sm-11 col-md-6 col-xl-6 d-lg-flex d-md-flex">
             <div class="text-center p-3">
-              <i class="fa-solid fa-cog me-5 fs-1 p-3 m-3"></i>
+              <i class="fa-solid fa-cog me-5 fs-1 p-1 m-3"></i>
             </div>
-            <div>
+            <div class="text-sm-center text-center text-lg-start text-xl-start text-md-start">
               <h5 class="text-info">Vorem amet intuitive</h5>
               <p class="text-muted">
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at
@@ -148,9 +156,9 @@
           </div>
           <div class="serv col-11 col-lg-6 col-sm-11 col-md-6 col-xl-6 d-lg-flex d-md-flex">
             <div class="text-center p-3">
-              <i class="fa-solid fa-camera me-5 fs-1 p-3 m-3"></i>
+              <i class="fa-solid fa-camera me-5 fs-1 p-1 m-3"></i>
             </div>
-            <div>
+            <div class="text-sm-center text-center text-lg-start text-xl-start text-md-start">
               <h5 class="text-info">Vorem amet intuitive</h5>
               <p class="text-muted">
                 Curabitur arcu erat, accumsan id imperdiet et, porttitor at
@@ -161,11 +169,11 @@
           </div>
         </div>
       </div>
-      <div class="mt-4 mb-5 imges row w-100 d-none d-lg-block d-xl-block d-md-block">
-        <div class="d-none d-lg-block d-md-block d-xl-block col-md-3 col-lg-6 h-50 mt-5">
+      <!-- <div class="mt-4 mb-5 imges row w-100 d-none d-lg-block d-xl-block d-md-block">
+        <div class="d-none d-lg-block d-md-block d-xl-block col-6 col-md-3 col-lg-5 h-50 mt-5">
           <img src="imges/mobile.png" alt="" srcset="" width="50%" style="margin-top: 200px; margin-left: 50px" />
         </div>
-        <div class="mt-5 col-lg-6 col-md-7 col-sm-10 h-100">
+        <div class="mt-5 col-6 col-lg-5 col-md-7 col-sm-10 h-100">
           <div class="mt-4 mb-4 bg-primary p-5">
             <h4 class="text-light">OUR DESIGN COMES WITH...</h4>
             <ul class="list-unstyled mt-5 pt-4">
@@ -196,12 +204,12 @@
             </ul>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <!--  end services -->
     <!--  start PORTFOLIO -->
-    <div id="PORTFOLIO" class="pt-5 pb-5 mb-5">
-      <div class="container pt-5 pb-5 mb-5">
+    <div id="PORTFOLIO" class="pt-5 pb-5 mb-5 bg-light">
+      <div class="container text-center pt-5 pb-5 mb-5">
         <div
           class="main-heading text-capitalize d-flex align-items-center justify-content-center text-center w-100 p-4">
           <div class="w-75 text-center">
@@ -222,7 +230,7 @@
           <li class="p-3">print</li>
         </ul>
       </div>
-      <div class="row w-100 bg-secondary text-center bg-opacity-10 pt-5 pb-5 pe-1 ps-1">
+      <div class="row w-100 m-0  text-center bg-opacity-10 pt-5 pb-5 ">
         <div class="col-12 col-sm-12 col-md-6 col-lg-3 m-0 p-0 position-relative pro overflow-hidden">
           <img src="imges/shuffle-01.jpg" alt="" srcset="" width="100%" height="100%" />
           <div class="p-2 position-absolute bottom-0 bg-light explan w-100">
