@@ -80,10 +80,10 @@ color: var(--main-color) !important;
 } */
 /*  portofilio */
 /* about */
-.item li:hover{
-background-color: var(--main-color);
-color: whitesmoke;
-cursor: pointer;
-margin: 0 5px;
+.about-sec{
+    background-image: url('../imges/about2.jpg');
+    background-position: center;
+    background-size: cover;
+  
 }
 /* about */
