@@ -32,19 +32,9 @@ color: var(--main-color) !important;
 /*  landing */
 .background{
    height:1000px;
-   position: relative;
-   overflow: hidden;
+
 }
-.landing{
-  
-    padding-left: 30px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% , -50%);
-    line-height: 1.9;
-    
-}
+
 
 /*  landing */
 /*   services */
@@ -82,6 +72,12 @@ color: var(--main-color) !important;
 /* about */
 .about-sec{
     background-image: url('../imges/about2.jpg');
+    background-position: center;
+    background-size: cover;
+  
+}
+.end-about{
+    background-image: url('../imges/end-about.jpeg');
     background-position: center;
     background-size: cover;
   
