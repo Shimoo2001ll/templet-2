@@ -38,10 +38,10 @@ color: var(--main-color) !important;
 
 /*  landing */
 /*   services */
-.imges{
+.end-serv{
     background-image:url('../imges/OIP.jpg') ;
-   /* width: 100%; */
     background-size: cover;
+    height: 300px;
 }
 
 /*   services */
@@ -65,9 +65,7 @@ color: var(--main-color) !important;
 .pro:hover .explan{
     display: block;
 }
-/* .media{
-    background-attachment: ;
-} */
+
 /*  portofilio */
 /* about */
 .about-sec{
@@ -83,3 +81,19 @@ color: var(--main-color) !important;
   
 }
 /* about */
+/*  pricing */
+.plans{
+    overflow: hidden;
+}
+.plans div:hover {
+transform: scale(.9);
+padding: 5px;
+background-color: lightblue;
+font-weight: bold;
+}
+.end-pricing {
+    background-image: url('../imges/end-pricing.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+/*  pricing */
