@@ -97,3 +97,15 @@ font-weight: bold;
     background-size: cover;
 }
 /*  pricing */
+/*  footer */
+footer{
+    background-image: url('../imges/end-about.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+footer a :hover{
+color: var(--main-color);
+padding: 2px;
+transform: scale(1.4);
+}
+/*  footer */
