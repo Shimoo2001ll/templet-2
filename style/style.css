@@ -53,6 +53,11 @@ color: var(--main-color) !important;
     cursor: pointer;
     transition:var(--main-transition);
 }
+.item li:hover{
+    background-color: var(--main-color);
+    color: white;
+    margin: 2px;
+}
 .pro:hover img{
     transform: scale(1.1);
     
